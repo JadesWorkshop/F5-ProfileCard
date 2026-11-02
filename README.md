@@ -6,8 +6,8 @@ Create a modern, responsive profile card using HTML and CSS that showcases your 
 You’ll use CSS animations, transitions, and hover effects to bring your card to life.
 
 ## Submission
-1. Upload both files (index.html and styles.css) to GitHub Classroom.
-2. Create a live site with your IDE, upload link to Jupiter.
+Create a live site with your IDE, upload link to Jupiter.  
+Publish your site, share the **Public Link**, *not* the **Teacher Link**.
 
 ## Requirements
 1. Structure (HTML)
