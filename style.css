@@ -1,0 +1,10 @@
+.container {
+    display: flex;
+    
+    height:40vh;
+    width: 70vh;
+    border-radius: 10px;
+    background-color: #f0f0f0;
+    padding: 20px;
+    margin: 50px;
+}
