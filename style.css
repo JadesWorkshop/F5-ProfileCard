@@ -1,10 +1,60 @@
 .container {
     display: flex;
-    
-    height:40vh;
+    height: 40vh;
     width: 70vh;
     border-radius: 10px;
-    background-color: #f0f0f0;
-    padding: 20px;
+    background-image: linear-gradient(to bottom, #7cce6b, #d8ffd0);
     margin: 50px;
+}
+
+.flip-card {
+    display: flex;
+    background-color: transparent;
+    width: 70vh;
+    height: 40vh;
+    border: 1px solid #96be96;
+    perspective: 1000px;
+}
+
+.flip-card-inner {
+    display: flex;
+    position: relative;
+    width: 70vh;
+    height: 40vh;
+    text-align: center;
+    transition: transform 0.8s;
+    transform-style: preserve-3d;
+}
+
+.flip-card:hover .flip-card-inner {
+    transform: rotateY(180deg);
+}
+
+.flip-card-front,
+.flip-card-back {
+    display: flex;
+    position: absolute;
+    width: 70vh;
+    height: 40vh;
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+}
+
+.flip-card-front {
+    display: flex;
+    height: 40vh;
+    width: 70vh;
+    border-radius: 10px;
+    background-image: linear-gradient(to bottom, #7cce6b, #d8ffd0);
+    margin: 50px;
+}
+
+.flip-card-back {
+    display: flex;
+    height: 40vh;
+    width: 70vh;
+    border-radius: 10px;
+    background-image: linear-gradient(to bottom, #7cce6b, #d8ffd0);
+    margin: 50px;
+    transform: rotateY(180deg);
 }
