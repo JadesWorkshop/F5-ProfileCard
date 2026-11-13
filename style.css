@@ -28,24 +28,27 @@
 }
 
 .flip-card-front {
-    border-radius: 10px;
+    border-radius: 25px;
   background-image: linear-gradient(to bottom, #7cce6b, #d8ffd0);
   color: black;
   word-wrap: break-word;
+  text-wrap: inherit;
 }
 
 .flip-card-back {
-    border-radius: 10px;
+    border-radius: 25px;
   background-image: linear-gradient(to bottom, #7cce6b, #d8ffd0);
   color: white;
   transform: rotateY(180deg);
   word-wrap: break-word;
+  text-wrap: inherit;
 }
 
 .picture1{
    border-radius: 25px;
-   justify-content: right;
    text-wrap: inherit;
-  
+   position: relative;
+   left: 100px;
+   
   
 }
