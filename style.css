@@ -31,6 +31,7 @@
     border-radius: 10px;
   background-image: linear-gradient(to bottom, #7cce6b, #d8ffd0);
   color: black;
+  word-wrap: break-word;
 }
 
 .flip-card-back {
@@ -38,4 +39,13 @@
   background-image: linear-gradient(to bottom, #7cce6b, #d8ffd0);
   color: white;
   transform: rotateY(180deg);
+  word-wrap: break-word;
+}
+
+.picture1{
+   border-radius: 25px;
+   justify-content: right;
+   text-wrap: inherit;
+  
+  
 }
